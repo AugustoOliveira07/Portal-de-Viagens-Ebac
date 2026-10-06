@@ -1,0 +1,55 @@
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+}
+
+.conteudo {
+  max-width: 750px;
+}
+
+.destaque {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #0284c7;
+}
+
+.conteudo h1 {
+  margin: 20px 0;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  color: #0f172a;
+}
+
+.conteudo h1 span {
+  color: #0284c7;
+}
+
+.conteudo p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.botao {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 8px;
+  background-color: #0284c7;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.botao:hover {
+  background-color: #0369a1;
+  transform: translateY(-2px);
+}
